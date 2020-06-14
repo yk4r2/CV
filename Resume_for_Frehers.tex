@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Egor Zhestow} % Your name
+\address{125475, Russia, Moscow, Dybenko str., h.14 b.1, 69 fl.} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{+7(905)570-96-47 \\ zhestov.ea@phystech.edu} % Your phone number and email
+\address{\href{https://github.com/yk4r2/}{Github}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Moscow Institute of Physics and Technology, MIPT} \hfill {\em 2017 - 2021} 
+\\ B.S. in Applied Mathematics and Physics,
+\\ School of Applied Mathematics and Computer Science,
+\\ Department of Discrete Mathematics.
+
+%{\bf Core courses}
+%\\\underline{Mathematics:} Calculus, Linear Algebra, Probability Theory, Stochastic Processes,
+%\\\underline{Computer Science:} Distributed Systems, Numerical Methods, Operating systems,
+%\\\underline{DS, ML \& Optimization:} Machine Learning, State-of-Art Optimization, Discrete Optimization.
+
+{\bf COURSERA courses \& specializations}
+\\ \href{https://www.coursera.org/specializations/machine-learning-data-analysis}{Machine Learning (MIPT, Yandex)}, \href{https://www.coursera.org/specializations/deep-learning}{Deep Learning (Stanford, Andrew NG)}, \href{https://www.coursera.org/projects/anomaly-detection-time-series-keras}{Anomaly Detection in time series} and others.
+\end{rSection}
+
+\begin{rSection}{Projects (clickable)}
+{\bf ML, Optimization}
+\\\href{https://github.com/yk4r2/GAN/blob/master/textFiles/Project.pdf}{A project on Generative Adversarial Networks} [Python]\\
+(a new approach to Discriminator optimization, helps avoiding mode collapse),
+\\\href{https://github.com/yk4r2/gradDesc/}{Gradient Descent algorithm \& its' modifications} [Python]\\
+(various GD modifications compared to each other),
+\\\href{https://github.com/yk4r2/LittleProjects}{Little projects} (Anomaly detection, NST, Diabetes prediction, $\dots$, in work) [Python, R],
+\\\href{https://github.com/yk4r2/DeepLearningCoursera}{Deeplearning.io course} [Python]
+(Andrew NG's course on Neural Nets repo).
+
+{\bf Other}
+\\\href{https://github.com/yk4r2/YandexWeatherBot}{Telegram bot using OpenWeatherAPI} [Python, different APIs],
+\\Gyroscope's precession and nutation modelling.
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Modeling \& Analysis \ & Python, Scikit-learn, Tensorflow, Keras, C++, SQL, GIT, Linux, R.\\
+Software \& Tools & Jupyter, Zeppelin, Colab notebooks, \LaTeX, Github, MS SQL Server.\\
+Machine Learning & Regression, Decision Trees, Naive Bayes, Gradient Boosting,\\
+& Random Forests, Cluster Analysis, NLP, CV.
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Academic Achievements}
+Awardee of the MIPT Contest for the best optimization project (2019),
+\\Prizes in school olympiads.
+\end{rSection}
+
+\begin{rSection}{Languages}
+English (C1 Advanced): \href{https://www.efset.org/cert/15PQrF}{EF SET certificate link},
+\\Russian (Native Speaker),
+\\German (A2).
+\end{rSection}
+
+\begin{rSection}{Hobbies \& Personal Traits}
+Professional Hustle dancer,
+\\Prizes in SamBO competitions,
+\\Calligraphy and design (Am a member of the Calligraphy Masters community),
+\end{rSection}
+
+\end{document}
